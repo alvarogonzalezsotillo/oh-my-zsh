@@ -85,4 +85,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
-ZSH_HIGHLIGHT_STYLES[path]=bold
+ZSH_HIGHLIGHT_STYLES[path]='bold,underline'
