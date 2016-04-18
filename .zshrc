@@ -1,3 +1,6 @@
+# QUITO LA VARIABLE EMACS PARA QUE FUNCIONE BIEN EL PLUGIN DE emacs
+unset EMACS
+
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
