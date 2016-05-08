@@ -88,4 +88,10 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
+# AGS CONFIGURATION
 ZSH_HIGHLIGHT_STYLES[path]='bold,underline,fg=magenta'
+
+# ADD USERNAME AND HOST TO ROBYRUSSEL THEME
+PROMPT="%n@%m $PROMPT"
+
+
