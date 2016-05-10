@@ -1,3 +1,6 @@
+# QUITO LA VARIABLE EMACS PARA QUE FUNCIONE BIEN EL PLUGIN DE emacs
+unset EMACS
+
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
@@ -85,4 +88,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
-ZSH_HIGHLIGHT_STYLES[path]='bold,underline'
+# AGS CONFIGURATION
+ZSH_HIGHLIGHT_STYLES[path]='bold,underline,fg=magenta'
+
+# ADD USERNAME AND HOST TO ROBYRUSSEL THEME
+PROMPT="%n@%m $PROMPT"
