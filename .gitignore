@@ -5,5 +5,9 @@ custom/
 
 # temp files directories
 cache/
+
 log/
+
+
+.git
 
